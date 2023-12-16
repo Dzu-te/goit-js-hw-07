@@ -28,9 +28,20 @@ const images = [
   },
 ];
 
-console.dir(document)
 
-// const imagesList = document.querySelector('gallery');
-// console.log(imagesList)
 
-// const createLi = document.createElement('li')
+// const imagesList = document.querySelector('.gallery');
+
+// const url = 'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
+// const alt = 'Blue Geeen and Orange Parrot';
+
+// const elementLi = document.createElement('li');
+// const elementImg = document.createElement('img');
+// elementImg.src = url;
+// elementImg.alt = alt;
+// elementLi.appendChild(elementImg);
+
+// imagesList.appendChild(elementLi);
+
+
+const imagesList = document.querySelector('.gallery');
