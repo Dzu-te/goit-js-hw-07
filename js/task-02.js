@@ -27,3 +27,10 @@ const images = [
     alt: 'Zebras on Zebra',
   },
 ];
+
+console.dir(document)
+
+// const imagesList = document.querySelector('gallery');
+// console.log(imagesList)
+
+// const createLi = document.createElement('li')
