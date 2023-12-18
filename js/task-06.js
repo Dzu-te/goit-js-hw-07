@@ -12,7 +12,7 @@ const boxesContainer = document.getElementById('boxes');
 
 function createBoxes(amount) {
   const initialSize = 30;
-  boxesContainer.innerHTML = '';
+  boxesContainer.textContent = '';
   
   for (let i = 0; i < amount; i++) {
     const box = document.createElement('div');
@@ -27,7 +27,7 @@ function createBoxes(amount) {
 }
 
 function destroyBoxes() {
-  boxesContainer.innerHTML = '';
+  boxesContainer.textContent = '';
 }
 
 createBtn.addEventListener('click', () => {
